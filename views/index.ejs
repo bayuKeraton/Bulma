@@ -1,0 +1,39 @@
+<%- include('partials/header') %>
+    <div class="blur"></div>
+    <div class="box">
+        <h1 class="has-text-centered is-uppercase has-text-weight-bold">Login
+            Form</h1>
+        <p class="has-text-centered">Login if you want to see something
+            specials!</p>
+        <hr>
+        <form action="">
+            <div class="field">
+                <p class="control has-icons-left has-icons-right">
+                    <input class="input" type="email" placeholder="Email">
+                    <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                </p>
+            </div>
+            <div class="field">
+                <p class="control has-icons-left">
+                    <input class="input" type="password" placeholder="Password">
+                    <span class="icon is-small is-left">
+                        <i class="fas fa-lock"></i>
+                    </span>
+                </p>
+            </div>
+            <div class="field is-grouped is-grouped-right">
+                <div class="control-text">
+                    <p>Don't have an account?<a href="">Sign Up Here</a> </p>
+                </div>
+                <div class="control">
+                    <button class="button is-default is-light">Cancel</button>
+                </div>
+                <div class="control">
+                    <button class="button is-primary">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <%- include('partials/footer') %>
